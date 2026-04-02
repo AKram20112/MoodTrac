@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+--base-color: #FDC600;
+--text-color:#000000;
+--primary-color: #ffc06e;
+--seondary-color: #8D8DFF;
+--color-1:#f9f6f3;
+--color-2:#f3f7f9;
+--color-3:#f6f3f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman';
+    color: var(--text-color);
+}
+
+body{
+    padding: 1em;
+    background: linear-gradient(70deg, #FDC600, orange);
+}
+div{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    background-color: #f3f7f9;
+    border-radius: 16px;
+    justify-content:center;
+    text-align: center;
+    
+}
+.text-container{
+    display: block;
+    margin-bottom: -10px;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: Merriweather, poppins;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+p{
+    font-family: Merriweather, poppins;
+    color: #4A5565;
+    text-align: center;
+    font-size: 18px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    
+}
+
+.form-container p{
+    font-family: Merriweather, poppins;
+    color: #4A5565;
+    font-size: 16px;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: -30px;
+    padding-top: 8px;
+}
+
+#Password{
+    border-radius: 8px;
+    margin-bottom: 25px;
+    height: 35px;
+    font-size: 16px;
+    font-family: Merriweather, poppins;
+    padding-left:40px ;
+    padding-bottom:20px ;
+    padding-right: 12px;
+    padding-top: 20px ;
+    background-image: url(images/lock.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    opacity: 0.4;
+    width: 325px;
+    outline: none;
+    border-style: solid ;
+    border-width: 1px;
+}
+
+#Email {
+    border-radius: 8px;
+    margin-bottom: 25px;
+    height: 35px;
+    font-size: 16px;
+    font-family: Merriweather, poppins;
+    padding-left:40px ;
+    padding-bottom:20px ;
+    padding-right: 12px;
+    margin-bottom: 45px;
+    padding-top: 20px ;
+    background-image: url(images/mail.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    opacity: 0.4;
+    width: 325px;
+    outline: none;
+    border-style: solid ;
+    border-width: 1px;
+    
+}
+
+.password-stuff{
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+}
+
+.password-stuff input{
+    justify-content: left;
+}
+.password-stuff p{
+    justify-content: left;
+    padding-right: 110px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.password-stuff a{
+    justify-content: right;
+    text-decoration: none;
+    color: #9810FA;
+    font-family: Merriweather, poppins;
+    font-size: 14px;
+}
+
+button{
+    background-color: #9810FA;
+    border-radius: 8px;
+    height: 35px;
+    width: 325px;
+    align-self: center;
+    font-family: Merriweather, poppins;
+    font-size: 18px;
+    color: #f3f7f9;
+    border-style: none;
+    text-decoration: none;
+}
+ button a{
+    text-decoration: none;
+    color: #f3f7f9;
+ }
+
+.signup-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-container p{
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: Merriweather, poppins;
+}
+
+.signup-container a{
+    text-decoration: none;
+    font-family: Merriweather, poppins;
+    color: #9810FA;
+    font-size: 14px;
+}
